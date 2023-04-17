@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitClub</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="icon" href="./src/images/icon-fitness.svg" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header id="home">
+        <a href="#" class="logo">
+            <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+            Fit<span>Club</span>
+        </a>
+        <nav>
+            <ul aria-label="Navegação primária" class="primary-navigation">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#training">Treinos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+    </header>
+    <section aria-label="Seção home " class="section-div">
+        <div>
+            <h2>Olá! Somos</h2>
+            <h2 id="typing">A Melhor Academia</h2>
+            <p>Alcance seus objetivos de saúde e bem-estar com a FitClub</p>
+            <a href="#">Diga Olá!</a>
+        </div>
+        <img src="./src/images/section-image.jpg" alt="Ilustração de homem malhando">
+    </section>
+    <main>
+        <article aria-label="Seção sobre nós" class="about" id="about">
+            <div class="about-title">
+                <h1><span>Sobre</span> Nós</h1>
+                <p>Seja Bem-Vindo!</p>
+            </div>
+            <img src="./src/images/section-image.jpg" alt="Ilustração de homem malhando">
+            <div class="about-content">
+                <div class="about-text">
+                    <h1>Nós Somos a <span>Fit</span>Club</h1>
+                    <p>
+                        Esteja você procurando perder peso, construir músculos, aumentar a resistência ou simplesmente melhorar sua saúde e bem-estar geral, nossa academia tem tudo o que você precisa para ter sucesso. De equipamentos de última geração a orientação e suporte especializados, estamos aqui para ajudá-lo a atingir todo o seu potencial.
+                    </p>
+                </div>
+            </div>
+        </article>
+    </main>
+    <section class="training" id="training">
+        <div class="about-title">
+            <h1><span>Nossos</span> Treinos e Aulas</h1>
+            <p>Experiência FitClub</p>
+        </div>
+        <div class="our-workouts">
+            <ul aria-label="Navegação secundária">
+                <li>
+                    <i class="fa-solid fa-dumbbell"></i>
+                    <h3>Musculação</h3>
+                </li>
+                <li>
+                    <i class="fa-solid fa-bolt"></i>
+                    <h3>Jump</h3>
+                </li>
+                <li>
+                    <i class="fa-solid fa-fire"></i>
+                    <h3>Ritbox</h3>
+                </li>
+                <li>
+                    <i class="fa-solid fa-music"></i>
+                    <h3>Dança</h3>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="about-title">
+            <h1><span>Fale</span> Conosco!</h1>
+            <p>A sua melhor opção na hora de levar uma vida + saudável</p>
+        </div>
+        <div class="contact-list">
+            <ul aria-label="Navegação terciária">
+                <li>
+                    <p>Segunda - Sexta</p>
+                    <p>5h30 - 23h</p>
+                </li>
+                <li>
+                    <p>Sábado</p>
+                    <p>8h - 17h</p>
+                </li>
+                <li>
+                    <p>Domingo - Feriado</p>
+                    <p>8h - 14h</p>
+                </li>
+                <li>
+                    <div class="icon">
+                        <ion-icon name="location" aria-hidden="true"></ion-icon>
+                        Av. Dr. João Medeiros Filho - Potengi, Natal - RN, 59110-200
+                    </div>
+                </li>
+                <li>
+                    <div class="icon">
+                        <ion-icon name="call" aria-hidden="true"></ion-icon>
+                        <a href="https://wa.me/55985344267" target="_blank">(84) 98534-4267</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon">
+                        <ion-icon name="mail" aria-hidden="true"></ion-icon>
+                        <a href="mailto:info@fitclub.com" target="_blank" class="footer-link">info@fitclub.com</a> 
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="contact-icons">
+            <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </section>
+
+    <script src="./src/js/script.js"></script>
+
+      <!-- 
+    - ionicon link
+     -->
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
